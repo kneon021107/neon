@@ -16,7 +16,7 @@ ul{
     margin: 0 auto;
     padding: 0 15px;
 }
-.header__content{
+.header__nav{
     height: 500px;
 background: black;
 display: flex;
@@ -37,4 +37,17 @@ h1{
     height: 50px;
     background: yellow;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.main{
+    background: rgb(105, 73, 73);
+    height: 100vh;
+}
+.main__block{
+    display: flex;
+    gap: 20px;
+}
+.main__item{
+    width: 25%;
+    height: 500px;
+    background: honeydew;
 }
